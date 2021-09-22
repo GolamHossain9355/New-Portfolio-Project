@@ -1,0 +1,55 @@
+/*centers the headings*/
+h1, h2, h3 {
+  text-align: center; 
+}
+
+/*background color and fonts for the header and footer*/
+header, footer {
+  background-color: #9c6644;
+  color: #e6ccb2;
+  padding: 3px;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+/*link styling*/
+a:link    { color: #023e8a; }
+a:visited { color: #40916c; }
+a:hover   { color: #48cae4; }
+a:active  { color: #e85d04; }  
+
+/*background and font for the main sections*/
+main {
+  background-color: #ede0d4;
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+/*padding the p,ul and ol to properly show centered*/
+p, ul, ol {
+  padding-left: 35%;
+  padding-right: 35%;
+}
+
+/*image centering*/
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+/*horizontal rulling styles*/
+hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 180px;
+  margin-right: 180px;
+  border: 1px groove #582f0e;
+  background-color: #582f0e;
+}
+
+
+
+
